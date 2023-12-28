@@ -1,0 +1,154 @@
+body{
+    font:15px /2.0 sans-serif ;
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+/*Bodyframe*/
+.bodyframe{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+ul{
+    margin:0;
+    padding:1;
+}
+.button-1{
+    height :35px;
+    background:#3f000f;
+    border:none;
+    padding-left:15px;
+    padding-right:15px;
+    color:#ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*header*/
+header{
+background:#3f000f;
+color:powderblue;
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+padding-top:20px;
+min-height:50px;
+border-button: white 3px solid;
+
+}
+header a{
+color:white;
+text-decoration:none;
+text-transform: uppercase ;
+font-size:20px;
+   
+}
+
+header li{
+    float: left;
+    display:inline;
+    padding:0 4px 0 4px;
+}
+header #design h1{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top: 5px;
+   
+}
+header  .current a{
+color:#ffff00;
+font-weight:bold;
+}
+
+/*preview*/
+#preview{
+    min-height: 400px;
+    background: url(../image/topimage7.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align:center;
+    color:#af0b0b;
+}
+
+#preview h1{
+    margin-top:200px;
+    font-size:50px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+#preview p{
+    font-size:30px;
+    color:#ffffff;
+}
+/*newsletter*/
+#newsletter{
+    padding: 10px;
+    color:#fff000;
+    background:#3f000f;
+}
+#newsletter h2{
+    float:left;
+}
+#newsletter form{
+    float:right;
+    margin-top:10px;
+}
+
+#newsletter input[type="Email"]{
+    padding:5px;
+    height:20px;
+    width:200px;
+}
+
+
+#pics{
+    margin-top:40px;
+
+}
+
+#pics .pic{
+    float: left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+#pics .pic img{
+    width:150px;
+}
+/*exact*/
+article#exact-col{
+    float:left;
+    width:60%;
+}
+/*sidebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+.light{
+    padding:10px;
+    background:#df9fac;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+/*services*/
+aside#sidebar textarea{
+    weight:80%;
+    padding:5px;
+    border-radius:15px;
+}
+ul#services li{
+    list-style: georgian;
+    padding:10px;
+}
+footer{
+    padding:2px;
+    margin-top:30px;
+    color:#ffff00;
+    background:#3f000f;
+    text-align: center;
+}
